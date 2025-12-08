@@ -1,0 +1,2 @@
+# Implementing-a-Pricing-Model-for-Toyota-Corolla-Based-off-Listings-Scraped-from-carsales.com.au
+An end to end machine learning project off listings scraped from carsales.com.au. The model would predict the market value of a given corolla and would also determine if a given price is around, above or below market value. The model would be containerised with Docker and deployed on Hugging Face for public access.
