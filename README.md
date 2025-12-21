@@ -2,6 +2,8 @@
 
 Machine learning model trained on real listings from carsales.com.au that predicts price ranges and classifies Toyota Corolla listings, deployed as both a Gradio app on Hugging Face Spaces and a production-ready FastAPI service using Docker and AWS ECS.
 
+👉 **Live demo:** [PriceMyCorolla-AU on Hugging Face Spaces](https://huggingface.co/spaces/sri-bandara/PriceMyCorolla-AU)  
+
 ---
 
 ## Model Overview 📍
