@@ -18,7 +18,7 @@ Machine learning model trained on real listings from carsales.com.au that predic
 
 ## Dataset 📊
 
-The dataset used in this project was collected using a publicly available web scraper on [Apify](https://apify.com/memo23/carsales-cheerio) to extract Toyota Corolla listings from carsales.com.au. Rather than attempting to scrape every available listing, data collection was intentionally constrained to maintain sufficient sample density within each trim and configuration, as sparsely represented trims (e.g. only a few listings) introduce noise and make reliable learning difficult. To further control variance given the dataset size, the data was restricted to automatic transmission vehicles, hatchback and sedan body styles, selected high-volume badges (Ascent, Ascent Sport, Ascent Sport Hybrid, SX, SX Hybrid, ZR, ZR Hybrid), and model years between 2010 and 2025. Due to scraping limitations, approximately 1,320 listings were collected in December 2025, providing a representative snapshot of the Australian Toyota Corolla market at that time.
+The dataset used in this project was collected using a publicly available web scraper on [Apify](https://apify.com/memo23/carsales-cheerio) to extract Toyota Corolla listings from carsales.com.au. Rather than attempting to scrape every available listing, data collection was intentionally constrained to maintain sufficient sample density within each trim and configuration, as sparsely represented trims (e.g. only a few listings) introduce noise and make reliable learning difficult. To further control variance given the dataset size, the data was restricted to automatic transmission vehicles, hatchback and sedan body styles, selected high-volume badges (Ascent, Ascent Sport, Ascent Sport Hybrid, SX, SX Hybrid, ZR, ZR Hybrid), and model years between 2010 and 2025. Due to scraping limitations, approximately 1400 listings were collected in December 2025, providing a representative snapshot of the Australian Toyota Corolla market at that time.
 
 ---
 
@@ -30,7 +30,7 @@ The project followed an end-to-end machine learning workflow, starting with data
 
 ## Assumptions and Limitations 🚧
 
-The model assumes that pricing patterns observed in the training data remain representative of the broader Toyota Corolla market, and that key explanatory variables such as year, mileage, trim, and seller type sufficiently capture price variation. As the dataset represents a snapshot of listings scraped in December 2025, the model may be affected by data drift over time due to changes in market conditions. Additionally, the model is constrained to a subset of Corolla configurations and relies on a limited sample size (~1,320 listings), which may reduce generalization to less common trims. Predictions should therefore be interpreted as indicative estimates rather than precise valuations.
+The model assumes that pricing patterns observed in the training data remain representative of the broader Toyota Corolla market, and that key explanatory variables such as year, mileage, trim, and seller type sufficiently capture price variation. As the dataset represents a snapshot of listings scraped in December 2025, the model may be affected by data drift over time due to changes in market conditions. Additionally, the model is constrained to a subset of Corolla configurations and relies on a limited sample size, which may reduce generalization to less common trims. Predictions should therefore be interpreted as indicative estimates rather than precise valuations.
 
 ---
 
