@@ -29,3 +29,12 @@ The project followed an end-to-end machine learning workflow, starting with data
 ## Assumptions and Limitations 🚧
 
 The model assumes that pricing patterns observed in the training data remain representative of the broader Toyota Corolla market, and that key explanatory variables such as year, mileage, trim, and seller type sufficiently capture price variation. As the dataset represents a snapshot of listings scraped in December 2025, the model may be affected by data drift over time due to changes in market conditions. Additionally, the model is constrained to a subset of Corolla configurations and relies on a limited sample size (~1,320 listings), which may reduce generalization to less common trims. Predictions should therefore be interpreted as indicative estimates rather than precise valuations.
+
+---
+
+## Demo 🔮
+
+<img width="965" height="839" alt="hf" src="https://github.com/user-attachments/assets/43aaa4f7-5deb-4821-880d-708233ead5c5" />
+<img width="965" height="644" alt="aws" src="https://github.com/user-attachments/assets/aea437e9-a1be-4c6c-99dc-9ed179ad3ab7" />
+
+
